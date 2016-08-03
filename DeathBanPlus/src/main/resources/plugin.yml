@@ -1,0 +1,10 @@
+name: DeathBanPlus
+main: org.bitbucket.ilucheti.deathbanplus.DeathBanPlus
+version: 0.5
+commands:
+  DeathBanPlus:
+    description: DeathBanPlus!
+    aliases: [dbp, deathbanp]
+  ADeathBanPlus:
+    description: DeathBanPlus admin commands!
+    aliases: [adbp, admindbp, adeathbanp]

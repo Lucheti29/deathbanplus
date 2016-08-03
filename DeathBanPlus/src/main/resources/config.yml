@@ -1,0 +1,19 @@
+# Death Ban Plus was made by iLucheti from Spigot
+General:
+# Amount of life
+  life: '100'
+# Formula used to calculate the ban duration
+# You can use %n% as times banned BEFORE ban, for example '%n% * 60 + 100'
+# If you want a static time, just write the number in seconds
+  banTimeFormula: '3600'
+# Enabled worlds where the players will lose life
+  enabledWorlds:
+  - world
+  - another
+# Here you should specify the cause of deaths enabled
+# The syntax is CAUSE_OF_DEATH(life taken)
+# You can use every DamageCause from
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
+  enabledDeaths:
+  - ENTITY_ATTACK(50)
+  - FALL(30)
